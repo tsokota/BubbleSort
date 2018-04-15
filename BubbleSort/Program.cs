@@ -17,8 +17,10 @@ namespace BubbleSort
                 //SCANING THE ARRAY
                 for (var i = 0; i < _array.Length -1; i++)
                 {
+                    //COMPARING THE VALUES
                     if (_array[i] > _array[i + 1])
                     {
+                        //SWAPPING VALUES TO THE CORRECT PLACE
                         parkingLot = _array[i];
                         _array[i] = _array[i + 1];
                         _array[i + 1] = parkingLot;
