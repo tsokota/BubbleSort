@@ -7,7 +7,7 @@ namespace BubbleSort
    
         static void Main()
         {
-            int[] _array = { 800, 11, 50, 771, 649, 770, 240, 9 };
+            int[] _array = { 800, 11, 50, 771, 649, 5, 770, 240, 9, 54, 67, 8899, 2 };
             int parkingLot;            
             bool sorted = false;
             //SORTING THE ARRAY
@@ -27,7 +27,8 @@ namespace BubbleSort
                         sorted = false;
                     }
                 }
-            }foreach(var number in _array)
+            }
+            foreach (var number in _array)
             {
                 Console.WriteLine("{0}", number);
             }         
